@@ -1,0 +1,51 @@
+body {
+	/*background-image: url("upfeathers.png");*/
+}
+
+header {
+	font-family: "Georgia";
+	font-size: 30px;
+	font-weight: bold;
+	/*color: #dfabc6;*/
+	color: #feebed;
+	padding: 30px;
+}
+
+.header_box {
+	background: #5e3553;
+	display: inline-block;
+	float: left;
+	position:relative;
+	left: 100px;
+	border-bottom: 2px solid;
+}
+
+a {
+	font-family: "Arial";
+	font-size: 18px;
+	color: #5e3553;
+}
+
+
+a.default_links {
+	padding: 20px;
+	float: right;
+	position: relative;
+	right: 100px;
+	top: 25px;
+}
+
+h1 {
+	padding: 10px;
+	border-bottom: 2px solid;
+}
+
+.about_me {
+	clear: both;
+	position: relative;
+	top: 20px;
+	left: 100px;
+	width: 50%;
+	padding: 10px;
+	border: 2px solid;
+}
