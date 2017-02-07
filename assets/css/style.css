@@ -1,23 +1,36 @@
 body {
-	/*background-image: url("upfeathers.png");*/
+	background-image: url("../images/upfeathers.png");
 }
 
 header {
 	font-family: "Georgia";
 	font-size: 30px;
 	font-weight: bold;
-	/*color: #dfabc6;*/
-	color: #feebed;
-	padding: 30px;
+	color: #fdfdf1;
+	background: #feebed;
+	width: 100%;
+	height: 120px;
 }
 
-.header_box {
-	background: #5e3553;
-	display: inline-block;
-	float: left;
-	position:relative;
-	left: 100px;
-	border-bottom: 2px solid;
+h1 {
+	font-family: "Georgia";
+	color: #5e3553;
+	padding: 10px;
+	border-bottom: 3px solid #feebed;
+}
+
+h2 {
+	font-family: "Georgia";
+	font-size: 22px;
+	color: #5e3553;
+	padding: 10px;
+	border-bottom: 3px solid #feebed;
+}
+
+p {
+	font-family: "Arial";
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 a {
@@ -35,9 +48,14 @@ a.default_links {
 	top: 25px;
 }
 
-h1 {
-	padding: 10px;
-	border-bottom: 2px solid;
+.header_box {
+	background: #5e3553;
+	display: inline-block;
+	padding: 30px;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 100px; 
 }
 
 .about_me {
@@ -45,7 +63,42 @@ h1 {
 	position: relative;
 	top: 20px;
 	left: 100px;
-	width: 50%;
+	width: 55%;
 	padding: 10px;
-	border: 2px solid;
+	border: 4px solid #feebed;
+	background: #fdfdf1;
+	display: inline-block;
+}
+
+#profile_pic {
+	float: left;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.social_media {
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 100px;
+	width: 20%;
+	padding: 10px;
+	border: 4px solid #feebed;
+	background: #fdfdf1;
+	display: inline-block;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+	bottom: -120px;
+	font-family: "Georgia";
+	text-align: center;
+	font-size: 14px;
+	color: #5e3553;
+	padding: 20px;
+	background: #feebed;
+	width: 95%;
+	height: 25px;
 }
