@@ -37,6 +37,7 @@ a {
 	font-family: "Arial";
 	font-size: 18px;
 	color: #5e3553;
+	text-decoration: none;
 }
 
 
@@ -59,14 +60,16 @@ a.default_links {
 }
 
 .main_content {
-	clear: both;
+	/*clear: both;*/
+	float: left;
 	position: relative;
 	top: 20px;
 	left: 100px;
-	width: 55%;
+	width: 650px;
 	padding: 10px;
 	border: 4px solid #feebed;
 	background: #fdfdf1;
+	margin-bottom: 40px;
 	display: inline-block;
 }
 
@@ -82,7 +85,7 @@ a.default_links {
 	position: relative;
 	top: 20px;
 	right: 100px;
-	width: 20%;
+	width: 270px;
 	padding: 10px;
 	border: 4px solid #feebed;
 	background: #fdfdf1;
@@ -91,8 +94,6 @@ a.default_links {
 
 footer {
 	clear: both;
-	position: absolute;
-	bottom: -120px;
 	font-family: "Georgia";
 	text-align: center;
 	font-size: 14px;
