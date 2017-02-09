@@ -27,10 +27,11 @@ h1 {
 
 h2 {
 	font-family: "Georgia";
-	font-size: 22px;
+	font-size: 20px;
+	text-align: center;
 	color: #600320;
 	padding: 10px;
-	border-bottom: 3px solid #e5c1b5;
+	border-bottom: 2px solid #e5c1b5;
 }
 
 p {
@@ -91,6 +92,7 @@ a.default_links {
 .social_media {
 	float: right;
 	position: relative;
+	text-align: center;
 	top: 150px;
 	right: 100px;
 	width: 270px;
