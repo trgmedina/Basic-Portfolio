@@ -22,11 +22,20 @@
 	<div class="main_content">
 		<h1>Contact</h1>
 
-		<h3>Name</h3>
-		<h3>Email</h3>
-		<h3>Message</h3>
+		<form>
+			<label for="fname">Name:</label>
+			<input type="text" id="fname" name="fname" placeholder="John Smith">
 
-		<button>Submit</button>
+			<label for="femail">Email:</label>
+			<input type="text" id="femail" name="femail" placeholder="example@gmail.com">
+
+			<label for="fmessage">Message:</label>
+			<input type="text" id="fmessage" name="fmessage">
+		</form>
+
+		<form action="mailto:trgmedina@gmail.com" method="GET">
+			<button>Submit</button>
+		</form>
 	</div>
 
 	<aside class="social_media">

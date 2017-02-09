@@ -10,6 +10,8 @@ header {
 	background: #e5c1b5;
 	width: 100%;
 	height: 120px;
+	border-top: 3px solid #600320;
+	border-bottom: 3px solid #600320;
 }
 
 h1 {
@@ -95,15 +97,54 @@ a.default_links {
 	display: inline-block;
 }
 
+label {
+	font-family: "Georgia";
+	font-size: 16px;
+	font-weight: bold;
+	color: #600320;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #e5c1b5;
+    border-radius: 4px;
+    outline: none;
+}
+
+#fmessage {
+    height: 150px;
+    resize: none;
+    vertical-align: text-top;
+}
+
+button {
+	background-color: #600320; 
+    border: none;
+    color: #e5c1b5;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
 footer {
 	clear: both;
 	font-family: "Georgia";
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	color: #600320;
 	padding: 20px;
 	background: #e5c1b5;
-	width: 95%;
+	width: 97%;
 	height: 25px;
-	border-top: 2px solid;
+	border-top: 3px solid #600320;
 }
