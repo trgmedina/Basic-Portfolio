@@ -48,7 +48,6 @@ a {
 	text-decoration: none;
 }
 
-
 a.default_links {
 	padding: 20px;
 	float: right;
@@ -147,6 +146,7 @@ button {
 #hangman {
 	float: left;
 	padding-bottom: 40px;
+	z-index: 1;
 }
 
 #rpg_game {
@@ -169,8 +169,44 @@ button {
 	padding-bottom: 40px;
 }
 
-.portfolio_labels {
-	clear: both;
+figcaption {
+	position: absolute;
+	padding: 20px;
+	background-color: #600320; 
+    border: none;
+    color: #fdfdf1;
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 20px;
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 2;
+}
+
+#hangman_label {
+	top: 240px;
+}
+
+#rpg_label {
+	top: 240px;
+	right: 50px;
+}
+
+#triviagame_label {
+	top: 480px;
+	left: 50px;
+}
+
+#rutgers_label {
+	top: 480px;
+	right: 50px;
+}
+
+#rps_label {
+	top: 720px;
+	left: 50px;
 }
 
 footer {
@@ -187,4 +223,5 @@ footer {
 	bottom: 0px;
 	left: 0px;
 	border-top: 3px solid #600320;
+	z-index: 3;
 }
